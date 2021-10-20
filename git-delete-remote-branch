@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git push origin --delete $1
+

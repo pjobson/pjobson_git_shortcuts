@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ $1 = "" ]]; then
+	git checkout
+else
+	git checkout $1
+fi
+
